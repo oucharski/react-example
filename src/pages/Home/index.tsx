@@ -1,8 +1,8 @@
 import "./Home.css";
 import { useEffect, useState } from "react";
-import { colorsList } from "../constants";
-import { Header, Button, Counter } from "../components";
-import { getRandomFromList } from "../utils";
+import { colorsList } from "../../constants";
+import { Header, Button, Counter } from "../../components";
+import { getRandomFromList } from "../../utils";
 
 export const Home = () => {
   const [counter, setCounter] = useState<number>(0);
